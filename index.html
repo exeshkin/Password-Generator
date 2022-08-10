@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Password Generator</title>
+</head>
+
+<body class="body">
+	<div class="wrapper">
+		<div class="container">
+
+			<h2 class="title">Генератор пароля</h2>
+
+			<form action="#" class="form-password">
+
+				<div class="section">
+					<div class="set-data">
+						<div class="input-box">
+							<h3 class="set-input">Длина пароля</h3>
+							<label class="label-passlenght" for="passlenght">
+								<span>min: 1</span><input class="checkbox-passlenght" type="number" name="passlenght"
+									id="passlenght" min="1" max="64" value="12"><span>max: 64</span>
+							</label>
+						</div>
+						<div class="input-box">
+							<h3 class="set-input">Строчные</h3>
+							<label class="label" for="lowercase">
+								<input class="checkbox" type="checkbox" name="lowercase" id="lowercase" checked>
+								<div class="input-icon">
+									<div class="icon-shadow"></div>
+									<div class="icon-box">
+										<ion-icon name="power-outline"></ion-icon>
+									</div>
+								</div>
+							</label>
+						</div>
+						<div class="input-box">
+							<h3 class="set-input">Прописные</h3>
+							<label class="label" for="uppercase">
+								<input class="checkbox" type="checkbox" name="uppercase" id="uppercase" checked>
+								<div class="input-icon">
+									<div class="icon-shadow"></div>
+									<div class="icon-box">
+										<ion-icon name="power-outline"></ion-icon>
+									</div>
+								</div>
+							</label>
+						</div>
+						<div class="input-box">
+							<h3 class="set-input">Числа</h3>
+							<label class="label" for="number">
+								<input class="checkbox" type="checkbox" name="number" id="number" checked>
+								<div class="input-icon">
+									<div class="icon-shadow"></div>
+									<div class="icon-box">
+										<ion-icon name="power-outline"></ion-icon>
+									</div>
+								</div>
+							</label>
+						</div>
+						<div class="input-box">
+							<h3 class="set-input">Символы</h3>
+							<label class="label" for="symb">
+								<input class="checkbox" type="checkbox" name="symb" id="symb" checked>
+								<div class="input-icon">
+									<div class="icon-shadow"></div>
+									<div class="icon-box">
+										<ion-icon name="power-outline"></ion-icon>
+									</div>
+								</div>
+							</label>
+						</div>
+					</div>
+					<div class="ready-passwords">
+						<div class="pass-line">
+							<span class="pass-copied">Скопирован</span>
+							<div class="pass"></div>
+						</div>
+						<div class="pass-line">
+							<span class="pass-copied">Скопирован</span>
+							<div class="pass"></div>
+						</div>
+						<div class="pass-line">
+							<span class="pass-copied">Скопирован</span>
+							<div class="pass"></div>
+						</div>
+						<div class="pass-line">
+							<span class="pass-copied">Скопирован</span>
+							<div class="pass"></div>
+						</div>
+						<div class="pass-line">
+							<span class="pass-copied">Скопирован</span>
+							<div class="pass"></div>
+						</div>
+						<div class="pass-line">
+							<span class="pass-copied">Скопирован</span>
+							<div class="pass"></div>
+						</div>
+						<div class="pass-line">
+							<span class="pass-copied">Скопирован</span>
+							<div class="pass"></div>
+						</div>
+						<div class="pass-line">
+							<span class="pass-copied">Скопирован</span>
+							<div class="pass"></div>
+						</div>
+						<div class="pass-line">
+							<span class="pass-copied">Скопирован</span>
+							<div class="pass"></div>
+						</div>
+						<div class="pass-line">
+							<span class="pass-copied">Скопирован</span>
+							<div class="pass"></div>
+						</div>
+					</div>
+				</div>
+
+				<button class="btn-create">Создать</button>
+
+			</form>
+		</div>
+	</div>
+
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	<script src="js/pass-gen.js"></script>
+</body>
+
+</html>

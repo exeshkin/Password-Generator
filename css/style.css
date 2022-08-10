@@ -1,0 +1,479 @@
+/* null style */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* null style */
+.body {
+  font-family: "Roboto", monospace;
+  width: 100%;
+  font-size: 1.25rem;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.title {
+  border: 1px solid #00000020;
+  border-radius: 7px;
+  font-size: 2rem;
+  padding: 7px 20px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1), 15px 15px 15px rgba(0, 0, 0, 0.1), inset 1px 1px 2px #fff;
+          box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1), 15px 15px 15px rgba(0, 0, 0, 0.1), inset 1px 1px 2px #fff;
+}
+
+.form-password {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section {
+  width: 100%;
+  max-width: 1000px;
+  min-width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+  border: 1px solid #00000050;
+  border-radius: 15px;
+  background: #cfd1e1;
+  padding: 30px 30px 10px 30px;
+  -webkit-box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.1), inset 15px 15px 15px rgba(0, 0, 0, 0.1), 5px 5px 5px rgba(0, 0, 0, 0.1), 15px 15px 15px rgba(0, 0, 0, 0.1), 20px 20px 15px rgba(0, 0, 0, 0.1), 30px 30px 15px rgba(0, 0, 0, 0.1), inset 1px 1px 2px #fff;
+          box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.1), inset 15px 15px 15px rgba(0, 0, 0, 0.1), 5px 5px 5px rgba(0, 0, 0, 0.1), 15px 15px 15px rgba(0, 0, 0, 0.1), 20px 20px 15px rgba(0, 0, 0, 0.1), 30px 30px 15px rgba(0, 0, 0, 0.1), inset 1px 1px 2px #fff;
+}
+
+.set-data {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.input-box {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #00000050;
+}
+
+.input-box:last-child {
+  border-bottom: none;
+}
+
+.set-input {
+  margin-bottom: 5px;
+}
+
+.label-passlenght {
+  position: relative;
+  width: 220px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #777;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #ffffff90;
+}
+
+.label {
+  position: relative;
+  width: 120px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.label::before {
+  content: "";
+  position: absolute;
+  width: 60%;
+  height: 4px;
+  background: #444;
+  border-radius: 4px;
+}
+
+.label .checkbox:checked ~ .input-icon {
+  left: 60px;
+}
+
+.label .checkbox:checked ~ .input-icon ion-icon {
+  color: #83ff99;
+  -webkit-filter: drop-shadow(0 0 15px #83ff99);
+          filter: drop-shadow(0 0 15px #83ff99);
+}
+
+.checkbox-passlenght {
+  width: 25%;
+  height: 50%;
+  border: 1px solid #00000050;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 1.25rem;
+  -webkit-box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.1), 15px 15px 15px rgba(0, 0, 0, 0.1), 20px 20px 15px rgba(0, 0, 0, 0.1), 30px 30px 15px rgba(0, 0, 0, 0.1), inset 1px 1px 2px #fff;
+          box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.1), 15px 15px 15px rgba(0, 0, 0, 0.1), 20px 20px 15px rgba(0, 0, 0, 0.1), 30px 30px 15px rgba(0, 0, 0, 0.1), inset 1px 1px 2px #fff;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #000;
+}
+
+.checkbox {
+  position: absolute;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.input-icon {
+  position: absolute;
+  left: 0;
+  width: 50px;
+  height: 100%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.input-icon::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(#fff), to(#e3e3e3));
+  background: linear-gradient(#fff, #fff, #e3e3e3);
+  -webkit-filter: blur(1px);
+          filter: blur(1px);
+  z-index: 1;
+}
+
+.input-icon::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -1px;
+  width: 10px;
+  height: 100%;
+  background: #9d9d9d;
+  -webkit-filter: blur(1px);
+          filter: blur(1px);
+}
+
+.icon-shadow {
+  position: absolute;
+  top: 25px;
+  left: -10px;
+  width: 70.71px;
+  height: 100px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), color-stop(transparent), to(transparent));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.1), transparent, transparent);
+  -webkit-transform-origin: top;
+          transform-origin: top;
+  -webkit-transform: rotate(315deg);
+          transform: rotate(315deg);
+  pointer-events: none;
+}
+
+.icon-box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#dbdae1), to(#a3aaba));
+  background: linear-gradient(#dbdae1, #a3aaba);
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1), 15px 15px 15px rgba(0, 0, 0, 0.1), 20px 20px 15px rgba(0, 0, 0, 0.1), 30px 30px 15px rgba(0, 0, 0, 0.1), inset 1px 1px 2px #fff;
+          box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1), 15px 15px 15px rgba(0, 0, 0, 0.1), 20px 20px 15px rgba(0, 0, 0, 0.1), 30px 30px 15px rgba(0, 0, 0, 0.1), inset 1px 1px 2px #fff;
+}
+
+.icon-box ion-icon {
+  color: #555;
+  font-size: 1.5rem;
+  --ionicon-stroke-width: 3.125rem;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.btn-create {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#dbdae1), to(#a3aaba));
+  background: linear-gradient(#dbdae1, #a3aaba);
+  border-radius: 3px;
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1), 15px 15px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1), 15px 15px 15px rgba(0, 0, 0, 0.1);
+  padding: 7px 30px;
+  font-size: 1.25rem;
+}
+
+.btn-create:hover {
+  -webkit-filter: drop-shadow(10px 10px 15px #00000050);
+          filter: drop-shadow(10px 10px 15px #00000050);
+}
+
+.btn-create:active {
+  color: #83ff99;
+}
+
+.ready-passwords {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 0 0 30px;
+}
+
+.pass-line {
+  position: relative;
+  width: 100%;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pass-copied {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 4px;
+  background: #a2ffb2;
+  -webkit-box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.1), inset 1px 1px 2px #fff;
+          box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.1), inset 1px 1px 2px #fff;
+  color: green;
+  opacity: 0;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.pass-copied._copied {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.pass {
+  font-family: "Roboto Mono", monospace;
+  height: 100%;
+  border: 1px solid #00000050;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 1.25rem;
+  -webkit-box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.1), 15px 15px 15px rgba(0, 0, 0, 0.1), 20px 20px 15px rgba(0, 0, 0, 0.1), 30px 30px 15px rgba(0, 0, 0, 0.1), inset 1px 1px 2px #fff;
+          box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.1), 15px 15px 15px rgba(0, 0, 0, 0.1), 20px 20px 15px rgba(0, 0, 0, 0.1), 30px 30px 15px rgba(0, 0, 0, 0.1), inset 1px 1px 2px #fff;
+  padding: 5px 20px;
+  background: #fff;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.pass._copied {
+  color: green;
+  background: #a2ffb2;
+  font-weight: 900;
+}
